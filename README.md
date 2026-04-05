@@ -16,7 +16,7 @@ We plan to make the full code **public** as soon as the patent application proce
 
 ### Deformation Steps Overview
 
-![arch](figures/deform_steps.png)
+![deform](figures/deform_steps.png)
 
 ---
 
