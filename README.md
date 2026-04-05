@@ -10,16 +10,13 @@ We plan to make the full code **public** as soon as the patent application proce
 
 ---
 
-### Model Architecture Overview
+### Model Framework Overview
 
 ![arch](figures/architecture.png)
 
 ### Deformation Steps Overview
 
-<div style="display: flex; align-items: center; gap: 3%;">
-  <img src="figures/deform_steps.png" style="width: 67%; height: auto;" />
-  <img src="figures/translation.png" style="width: 30%; height: auto;" />
-</div>
+![arch](figures/deform_steps.png)
 
 ---
 
