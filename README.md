@@ -1,10 +1,14 @@
 # TraceTrans : Translation and Spatial Tracing for Surgical Prediction
 
-⚠️ **Notice: Some of the Code Temporarily Private Due to Patent Pending**
+📄 [![Arxiv](https://img.shields.io/badge/Paper-Arxiv-red)](https://arxiv.org/abs/2510.22379)
 
-Due to a pending patent application, **some of** the source code for this project is currently **private**.
+### Model Framework Overview
 
-We plan to make the full code **public** as soon as the patent application process is complete. Thank you for your understanding and patience.
+![arch](figures/architecture.png)
+
+### Deformation Steps Overview
+
+![deform](figures/deform_steps.png)
 
 ---
 
@@ -18,4 +22,3 @@ You may copy, modify, and redistribute the code for **non-commercial purposes**,
 Commercial use, redistribution, or incorporation into a commercial product without explicit permission from the copyright/patent holder is **prohibited**.
 
 Full license text: [CC BY‑NC 4.0 Legal Code](https://creativecommons.org/licenses/by-nc/4.0/legalcode)
-
