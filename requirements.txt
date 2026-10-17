@@ -1,0 +1,17 @@
+# Python 3.10 (tested); versions pinned to mid-2025 releases, matching the neurite commit below.
+
+torch==2.7.1
+numpy==2.2.6
+scipy==1.15.3
+matplotlib==3.10.3
+opencv-python==4.12.0.88
+tqdm==4.67.1
+
+# neurite: PyTorch implementation from the GitHub dev branch (not the TensorFlow release on PyPI).
+# Pinned to the last commit that still provides ne.utils.grid, ne.utils.make_{down,up}sampling_conv_blocks
+# and ne.modules.ConvBlock; later commits rename or move these APIs.
+neurite @ git+https://github.com/adalca/neurite.git@890ed0126de770eb24f6d5a2b68a131464862bbc
+# neurite runtime deps (einops is imported by neurite but missing from its setup.py)
+pystrum==0.4
+einops==0.8.1
+packaging==25.0
